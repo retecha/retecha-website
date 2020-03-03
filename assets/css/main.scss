@@ -133,6 +133,10 @@ h2.section-title::after {
 
 .row{
     margin: 0;
+
+    *{
+        margin: auto;
+    }
 }
 
 .intro{
@@ -157,44 +161,9 @@ h2.section-title::after {
     vertical-align: middle;
 }
 
-#learning-sites{
-    h1{
-        margin-bottom: 5%;
-    }
-
-    .col{
-        height: 650px;
-
-        &.image-container{
-            padding: 0;
-            display: table;
-
-            .image{
-                display: table-cell;
-                vertical-align: middle;
-
-                img{
-                    max-height: 650px;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-        }
-
-        &.text{
-            text-align: justify;
-            padding: 4%;
-        }
-    }
-}
-
-#Conferences .hero-image-container .overlay{
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
 .hero-image-container{
     position: relative;
-    height: 100vh;
+    height: 75vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -256,14 +225,14 @@ h2.section-title::after {
 }
 
 #Contact {
-    .hero-image-container{
-        height: 50vh;
-        background-color: $blue-color-light;
+    // .hero-image-container{
+    //     height: 50vh;
+    //     background-color: $blue-color-light;
     
-        *{
-            color: black;
-        }
-    }
+    //     *{
+    //         color: black;
+    //     }
+    // }
 
     .row *{
         margin: 1% auto;
@@ -376,15 +345,3 @@ h2.section-title::after {
     }
 }
 
-#Mission{
-    p{
-        text-align: justify;
-    }
-
-    .avatar{
-        vertical-align: middle;
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-    }
-}

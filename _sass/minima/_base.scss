@@ -69,7 +69,7 @@ figure > img {
 }
 
 figcaption {
-  font-size: $small-font-size;
+  // font-size: $small-font-size;
 }
 
 
@@ -128,7 +128,7 @@ blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
+  // @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
 
