@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="text-center" id="{{ page.title }}">
+
+  {%- include header.html -%}
+
+  <!-- <h2 class="section-title">{{ page.title }}</h2> -->
+
+  <main class="page-content" aria-label="Content">
+    {{ content }}
+  </main>
+
+  <!-- {%- include footer.html -%} -->
+  
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+
+</html>
