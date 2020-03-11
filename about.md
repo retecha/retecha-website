@@ -55,7 +55,7 @@ hero-title: Our Mission
             </div>
             <div class="col-sm">
                 <h5 class="person-name">Shinee B</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Shinee Batsaikhan is a sophomore at Albany High School who is intrigued by chemistry, mathematics and such related subjects. Likes to do puzzles, play with cards of variety and work many types of electronics. He looks forward to a greener future.</p>
             </div>
         </div>
         <div class="row person-info">

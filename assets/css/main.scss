@@ -265,6 +265,10 @@ h2.section-title:after {
     text-align: center;
     display: flex;
     padding: 1%;
+
+    a{
+        color: $highlight-color;
+    }
     
     *{
         margin: auto;
